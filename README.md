@@ -1,4 +1,4 @@
-# adaptive-marl-signals
+# LLM-ALSO
 
 This repository contains the anonymized implementation for the submitted paper on adaptive learning-signal optimization in cooperative multi-agent reinforcement learning.
 
