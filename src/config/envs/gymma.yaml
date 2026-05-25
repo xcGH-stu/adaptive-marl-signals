@@ -1,0 +1,52 @@
+env: "gymma"
+
+env_args:
+  key: null
+  time_limit: 100
+  pretrained_wrapper: null
+  use_pbrs: False
+  eval_use_pbrs: False
+  pbrs_beta: 1.0
+  pbrs_wc: 0.6
+  pbrs_wp: 0.4
+  pbrs_version: ""
+  pbrs_mode: ""
+  pbrs_active_terms: []
+  pbrs_weights: {}
+  pbrs_gamma: 0.99
+  pbrs_variant: "original"
+  pbrs_semi_strict_gate_radius: 2
+  pbrs_beta_schedule_enabled: False
+  pbrs_beta_schedule_first: 0.3
+  pbrs_beta_schedule_second: 0.9
+  pbrs_beta_schedule_switch_ratio: 0.5
+  pbrs_stage_schedule_enabled: False
+  pbrs_stage_boundary_1: 875923
+  pbrs_stage_boundary_2: 1451234
+  pbrs_stage_beta_early: 0.3
+  pbrs_stage_beta_mid: 1.0
+  pbrs_stage_beta_late: 0.5
+  pbrs_stage_wc_early: 0.1
+  pbrs_stage_wc_mid: 1.0
+  pbrs_stage_wc_late: 0.7
+  pbrs_stage_wp_early: 0.7
+  pbrs_stage_wp_mid: 0.1
+  pbrs_stage_wp_late: 0.3
+
+use_dense_reward: False
+reward_module_path: null
+alpha_policy_config: {}
+policy_guidance_config: {}
+workflow_id: null
+workflow_round: null
+experiment_metadata: {}
+apply_dense_reward_in_eval: False
+log_dense_reward_details: True
+
+test_greedy: True
+test_nepisode: 100
+test_interval: 50000
+log_interval: 50000
+runner_log_interval: 10000
+learner_log_interval: 10000
+t_max: 2050000
